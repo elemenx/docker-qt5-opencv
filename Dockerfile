@@ -13,6 +13,7 @@ RUN apt update &&                  \
     apt dist-upgrade -y &&         \
     apt install -y                 \
         git                        \
+        cmake                      \
         wget                       \
         xvfb                       \
         flex                       \
