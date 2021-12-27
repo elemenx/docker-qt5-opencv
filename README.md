@@ -1,0 +1,1 @@
+## docker qt5-opencv for qt builder
