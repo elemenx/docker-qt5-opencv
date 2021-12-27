@@ -20,7 +20,6 @@ RUN apt update &&                  \
         debhelper                  \
         checkinstall               \
         fuse                       \
-        snapcraft                  \
         bison                      \
         libxcursor-dev             \
         libxcomposite-dev          \
@@ -34,8 +33,7 @@ RUN apt update &&                  \
         qt5-default                \
         qtbase5-private-dev        \
         libopencv-dev              \
-        python3-opencv             \
-        libssl-dev      &&\
+        python3-opencv           &&\
     apt clean
 
 WORKDIR /home/root/
