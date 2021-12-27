@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 ENV LC_ALL C.UTF-8
